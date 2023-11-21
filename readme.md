@@ -1,10 +1,15 @@
-# Happy gitting everyone!
+# Changed something
 
 This is markdown readme file.
 
 You can add images here as in any other markdown document:
 
-![Lake Olallie in October 2022](olallie.jpg)
+```{r}
+library(magick)
+fName <- "/Users/samuellim/UW/R- studio/happy-gitting/mountain.jpeg"
+img <- image_read(fName)
+plot(img)
+```
 
 * fork this repo (use the GH fork button)
 * clone the result to your computer  
